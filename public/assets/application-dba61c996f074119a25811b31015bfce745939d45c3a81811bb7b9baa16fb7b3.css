@@ -1,0 +1,89 @@
+/* line 5, /Users/chenguangliu/Src/ruby/workspace/tictactoe/app/assets/stylesheets/tic_tac_toe.scss */
+body {
+  background-color: #212121;
+}
+
+/* line 9, /Users/chenguangliu/Src/ruby/workspace/tictactoe/app/assets/stylesheets/tic_tac_toe.scss */
+header {
+  font: 36px/40px arial;
+  padding: 10px;
+  display: block;
+  color: #ffffff;
+}
+
+/* General */
+/* line 17, /Users/chenguangliu/Src/ruby/workspace/tictactoe/app/assets/stylesheets/tic_tac_toe.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 23, /Users/chenguangliu/Src/ruby/workspace/tictactoe/app/assets/stylesheets/tic_tac_toe.scss */
+.container {
+  width: 390px;
+  margin: 0 auto;
+  text-align: center;
+  color: #212121;
+}
+
+/* Gameboard */
+/* line 31, /Users/chenguangliu/Src/ruby/workspace/tictactoe/app/assets/stylesheets/tic_tac_toe.scss */
+.gameboard {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+/* line 36, /Users/chenguangliu/Src/ruby/workspace/tictactoe/app/assets/stylesheets/tic_tac_toe.scss */
+.gameboard div {
+  background-color: #e17a35;
+  width: 130px;
+  height: 130px;
+  float: left;
+  font-size: 80px;
+  line-height: 130px;
+  border-radius: 4px;
+}
+
+/* line 46, /Users/chenguangliu/Src/ruby/workspace/tictactoe/app/assets/stylesheets/tic_tac_toe.scss */
+.r-border {
+  border-right: 3px solid #212121;
+  border-radius: 4px;
+}
+
+/* line 51, /Users/chenguangliu/Src/ruby/workspace/tictactoe/app/assets/stylesheets/tic_tac_toe.scss */
+.b-border {
+  border-bottom: 3px solid #212121;
+  border-radius: 4px;
+}
+
+/* Button */
+/* line 57, /Users/chenguangliu/Src/ruby/workspace/tictactoe/app/assets/stylesheets/tic_tac_toe.scss */
+.button {
+  background-color: #8b8b8b;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  width: 200px;
+  cursor: pointer;
+  margin: 10px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
