@@ -1,6 +1,8 @@
 module SessionsHelper
   def log_in(user)
     session[:user_id] = user.id
+    user.online = true
+    user.save
   end
 
   def current_user
